@@ -23,6 +23,6 @@ elif num > 1:
 
     # check if flag is True
     if flag:
-        print(num, "is not a prime number")
+        print(num, "je prvočíslo")
     else:
-        print(num, "is a prime number")
+        print(num, "není prvočíslo")
