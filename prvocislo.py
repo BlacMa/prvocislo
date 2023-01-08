@@ -11,7 +11,7 @@ num = random.randint(0, 100)
 flag = False
 
 if num == 1:
-    print(num, "is not a prime number")
+    print(num, "není prvočíslo")
 elif num > 1:
     # check for factors
     for i in range(2, num):
