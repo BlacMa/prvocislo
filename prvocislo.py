@@ -36,5 +36,4 @@ elif num > 1:
     if flag:
         print(num, "není prvočíslo")
     else:
-        print(num, "je1
-         prvočíslo")
+        print(num, "je prvočíslo")
