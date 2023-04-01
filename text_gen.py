@@ -1,8 +1,13 @@
 import string
 import random
-# choose a random character from lower case letters
-for i in range(100):
-    num = random.randint(5, 10)
-    for n in range(num):
+file = open('scaler.txt', 'a')
+for i in range(10000):
+    num = random.randint(3, 10)
     char = random.choice(string.ascii_lowercase)
-    print(char)
+    for n in range(num): 
+        print(char, end="")
+        file.write(char)
+file.close()
+
+
+
